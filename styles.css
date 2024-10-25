@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h1 {
+    margin: 20px 0 20px 20px;
+}
+
+#map { 
+    width: 100%;
+    max-width: 1440px;  
+    height: 600px;  
+    margin: auto;  
+}
+
+#marker-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#marker-list p {
+    white-space: pre-line;
+    margin: 20px 0 20px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#marker-list p::first-line {
+    font-size: 18px;
+}
